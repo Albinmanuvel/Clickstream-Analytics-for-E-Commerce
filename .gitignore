@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+clickstream_env/
+.DS_Store
+.vscode/
+logs/
