@@ -8,8 +8,7 @@ This project implements a real-time Clickstream Analytics and User Behavior Pred
 This same project file can be used as a pipeline in the real world ecomerce data to predict the user behavior and return the recommendation to the user with the help of the real data from the enterprise.
 
 ## Architecture
-![Architecture Diagram]
-Untitled Diagram.drawio.png
+C:\Users\Albin\Clickstream-Analytics-for-E-Commerce\images\Untitled Diagram.drawio.png
 
 ### Key Components
 - **Data Ingestion**: Kafka-based streaming pipeline for real-time clickstream data
