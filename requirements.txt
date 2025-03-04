@@ -1,0 +1,30 @@
+# Core Python Libraries
+pandas>=2.0.0
+numpy>=1.23.0
+
+# Kafka & Streaming
+kafka-python>=2.0.2
+pyspark>=3.5.0
+
+# Machine Learning & Recommendation System
+scikit-learn>=1.3.0
+surprise>=1.1.3  # For collaborative filtering recommendations
+
+# Database Connectivity
+psycopg2-binary>=2.9.3  # PostgreSQL database connector
+elasticsearch>=8.3.0  # Elasticsearch for real-time analytics storage
+
+# Data Visualization & Dashboard
+tableau-api-lib>=0.1.3  # If using Tableau API for visualization
+
+# Web Frameworks & APIs
+flask>=2.2.5  # If the project includes a web interface for real-time recommendations
+flask-cors>=3.0.10  # Enable CORS support for Flask API
+
+# Orchestration & Containerization
+apache-airflow>=2.6.2  # For workflow automation (If applicable)
+docker>=6.1.3  # To interact with Docker containers
+
+# Miscellaneous Utilities
+python-dotenv>=1.0.0  # Environment variable management
+requests>=2.31.0  # HTTP requests (If external APIs are used)
