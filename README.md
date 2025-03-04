@@ -8,7 +8,7 @@ This project implements a real-time Clickstream Analytics and User Behavior Pred
 This same project file can be used as a pipeline in the real world ecomerce data to predict the user behavior and return the recommendation to the user with the help of the real data from the enterprise.
 
 ## Architecture
-![Alt Text](images\Architecture.png)
+![Alt Text](https://github.com/Albinmanuvel/Clickstream-Analytics-for-E-Commerce/blob/main/images/Architecture.png?raw=true)
 
 
 
