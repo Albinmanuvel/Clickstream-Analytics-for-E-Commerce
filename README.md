@@ -1,4 +1,4 @@
-# Clickstream Analytics for E-Commerce
+# Real-time Clickstream Analytics and User Behavior Prediction Pipeline for E-commerce
 
 ## Overview
 A real-time analytics platform that processes and analyzes user clickstream data from e-commerce platforms to generate personalized product recommendations. The system uses a modern data engineering stack with streaming capabilities, machine learning, and containerized deployment options.
