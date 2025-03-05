@@ -49,7 +49,7 @@ E-commerce businesses deal with vast amounts of user interaction data. Understan
 
 ## Folder Structure for Clickstream Analytics Project
 
-''' Clickstream-Analytics-for-E-Commerce/
+Clickstream-Analytics-for-E-Commerce/
 │── scripts/                    # Contains Python scripts for producer, consumer, recommendation
 │   ├── kafka_producer.py        # Kafka producer script (simulated clickstream data)
 │   ├── spark_consumer.py        # Spark Streaming consumer to process clickstream data
@@ -59,7 +59,7 @@ E-commerce businesses deal with vast amounts of user interaction data. Understan
 │── notebooks/                   # Jupyter notebooks for data analysis & visualization
 │   ├── exploratory_analysis.ipynb
 │── sql/                         # SQL scripts for database setup & queries
-│   ├── create_database.sql       # SQL script to create `clickstream_db`
+│   ├── create_database.sql       # SQL script to create clickstream_db
 │   ├── insert_sample_data.sql    # Sample data insertion script
 │── docker/                       # Docker-related files for containerization
 │   ├── Dockerfile                # Docker instructions for setting up the project
@@ -71,7 +71,10 @@ E-commerce businesses deal with vast amounts of user interaction data. Understan
 │── requirements.txt              # List of Python dependencies
 │── README.md                     # Project documentation
 │── .gitignore                     # Files to ignore in GitHub
-│── LICENSE                        # License file for open-source usage '''
+│── LICENSE                        # License file for open-source usage
+
+
+
 
 
 ## Setup Instructions
