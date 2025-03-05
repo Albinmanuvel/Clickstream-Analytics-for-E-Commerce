@@ -48,7 +48,8 @@ E-commerce businesses deal with vast amounts of user interaction data. Understan
 - **Docker & Kubernetes**: Containerization and orchestration
 
 ## Folder Structure for Clickstream Analytics Project
-Clickstream-Analytics-for-E-Commerce/
+
+''' Clickstream-Analytics-for-E-Commerce/
 │── scripts/                    # Contains Python scripts for producer, consumer, recommendation
 │   ├── kafka_producer.py        # Kafka producer script (simulated clickstream data)
 │   ├── spark_consumer.py        # Spark Streaming consumer to process clickstream data
@@ -70,7 +71,7 @@ Clickstream-Analytics-for-E-Commerce/
 │── requirements.txt              # List of Python dependencies
 │── README.md                     # Project documentation
 │── .gitignore                     # Files to ignore in GitHub
-│── LICENSE                        # License file for open-source usage
+│── LICENSE                        # License file for open-source usage '''
 
 
 ## Setup Instructions
