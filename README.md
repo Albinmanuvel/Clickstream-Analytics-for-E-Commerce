@@ -7,6 +7,16 @@ This project implements a real-time Clickstream Analytics and User Behavior Pred
 
 This same project file can be used as a pipeline in the real world ecomerce data to predict the user behavior and return the recommendation to the user with the help of the real data from the enterprise.
 
+## Motivation & Objective
+E-commerce businesses deal with vast amounts of user interaction data. Understanding customer behavior in real time can enhance user experience, improve product recommendations, and optimize sales. 
+
+### This project aims to:
+- Capture real-time user activity through event streaming.
+- Process and store clickstream data for analytical insights.
+- Develop machine learning models to predict user behavior and preferences.
+- Deliver personalized product recommendations through a REST API.
+- Visualize insights using Tableau dashboards.
+
 ## Architecture
 ![Alt Text](https://github.com/Albinmanuvel/Clickstream-Analytics-for-E-Commerce/blob/main/images/Architecture.png?raw=true)
 
@@ -37,13 +47,31 @@ This same project file can be used as a pipeline in the real world ecomerce data
 - **Flask**: Web API framework
 - **Docker & Kubernetes**: Containerization and orchestration
 
-## Project Structure
-- `data/`: Sample clickstream data
-- `scripts/`: Data simulation and ingestion scripts
-- `models/`: Machine learning models
-- `dags/`: Airflow DAGs
-- `docker/`: Docker files
-- `api/`: Recommendation API
+## Folder Structure for Clickstream Analytics Project
+Clickstream-Analytics-for-E-Commerce/
+│── scripts/                    # Contains Python scripts for producer, consumer, recommendation
+│   ├── kafka_producer.py        # Kafka producer script (simulated clickstream data)
+│   ├── spark_consumer.py        # Spark Streaming consumer to process clickstream data
+│   ├── real_time_recommendation.py  # Real-time recommendation engine
+│── data/                        # Folder for storing any sample datasets (optional)
+│   ├── sample_data.json
+│── notebooks/                   # Jupyter notebooks for data analysis & visualization
+│   ├── exploratory_analysis.ipynb
+│── sql/                         # SQL scripts for database setup & queries
+│   ├── create_database.sql       # SQL script to create `clickstream_db`
+│   ├── insert_sample_data.sql    # Sample data insertion script
+│── docker/                       # Docker-related files for containerization
+│   ├── Dockerfile                # Docker instructions for setting up the project
+│   ├── docker-compose.yml        # Docker Compose file for managing multi-container setup
+│── kubernetes/                   # Kubernetes manifests for orchestration
+│   ├── kafka-deployment.yaml     # Kubernetes config for Kafka
+│   ├── spark-deployment.yaml     # Kubernetes config for Spark
+│   ├── postgres-deployment.yaml  # Kubernetes config for PostgreSQL
+│── requirements.txt              # List of Python dependencies
+│── README.md                     # Project documentation
+│── .gitignore                     # Files to ignore in GitHub
+│── LICENSE                        # License file for open-source usage
+
 
 ## Setup Instructions
 
