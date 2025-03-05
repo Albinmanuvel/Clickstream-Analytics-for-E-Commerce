@@ -178,5 +178,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Contributors and maintainers of all used libraries
 
 ## Contact
-Your Name - [albinmanuvel31@gmail.com]
+[albinmanuvel31@gmail.com]
+
+Linkedin - [www.linkedin.com/in/albin-manuvel-6607a9221]
+
 Project Link: [https://github.com/Albinmanuvel/Clickstream-Analytics-for-E-Commerce]
