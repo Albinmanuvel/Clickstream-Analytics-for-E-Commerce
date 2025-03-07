@@ -49,6 +49,8 @@ E-commerce businesses deal with vast amounts of user interaction data. Understan
 
 ## Folder Structure for Clickstream Analytics Project
 
+```bash
+
 Clickstream-Analytics-for-E-Commerce/
 │── scripts/                    # Contains Python scripts for producer, consumer, recommendation
 │   ├── kafka_producer.py        # Kafka producer script (simulated clickstream data)
@@ -72,6 +74,8 @@ Clickstream-Analytics-for-E-Commerce/
 │── README.md                     # Project documentation
 │── .gitignore                     # Files to ignore in GitHub
 │── LICENSE                        # License file for open-source usage
+
+```
 
 
 
